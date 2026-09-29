@@ -1,5 +1,2 @@
 # project1
-# project1
-# project1
-# project1
-# laravel
+## Fresh up on Javascript
