@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <body>
 
-<h2>What Can JavaScript Do?</h2>
+    <h2>What Can JavaScript Do?</h2>
 
-<p>JavaScript can change HTML attribute values.</p>
+    <p>JavaScript can change HTML attribute values.</p>
 
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
-<button onclick="document.getElementById('myImage').src='BulbOff.jpeg'">Turn Off the light</button>
+    <button onclick="document.getElementById('myImage').src='BulbOff.jpeg'">Turn Off the light</button>
 
-<img id="myImage" src="BulbOff.jpeg" style="width:100px">
+    <img id="myImage" src="BulbOff.jpeg" style="width:100px">
 
-<button onclick="document.getElementById('myImage').src='BulbOn.jpeg'">Turn On the light</button>
+    <button onclick="document.getElementById('myImage').src='BulbOn.jpeg'">Turn On the light</button>
+    <br>
+    <p id="demo">JavaScript can change the style of an HTML element</p>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize ='35px'">Click me to enlarge
+        font</button>
+    <br>
+    <button type="button" onclick="document.getElementById('demo').style.display ='none'">Click me to hide text</button>
+    <br>
+    <p>Javascript can show hidden HTML elements</p>
+
+    <button type="button" onclick="document.getElementById('demo').style.display ='block'">Click me to show
+        text</button>
+    <br>
+    <p id="demo1" style="display:none;">This is a hidden paragraph.</p>
+    <button type="button" onclick="document.getElementById('demo1').style.display ='block'">Click me to show hidden
+        paragraph</button>
+    <!--  In html js code is inserted between </script> tag -->
+    <h2>In html js code is inserted between the script tags </h2>
+    <p id="demo2">
+    </p>
+    <script>
+        document.getElementById("demo2").innerHTML = "Hello JavaScript!";
+    </script>
+<!-- Script can be placed in the head section or the body section 
+  Function is called when a button is clicked
+  Function in javascript is a block of js code-->
+  
 
 </body>
+
 </html>
