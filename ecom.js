@@ -14,3 +14,5 @@ the item name, and output final price considering things,
    }
 
    calculateFinalPrice(80, "Shoes");
+   calculateFinalPrice(300, "Jacket");
+   
