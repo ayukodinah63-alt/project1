@@ -18,3 +18,28 @@ else
     {
     console.log("Access Denied");
 }
+
+//Loan eligibilty
+
+let agelevel =10;
+let monthlyIncome = 40000;
+let hasOutstandingLoan = false;
+if (agelevel>=18 && monthlyIncome>=30000 && hasOutstandingLoan=== false) {
+    console.log ("Eligible for loan");
+    
+}
+else{
+    console.log("Not eligible");
+}
+
+// Not reverse a boolean value
+
+let isLoggedIn = true;
+console.log (!isLoggedIn)
+
+// !true  become false
+
+let isBlocked = false;
+if (!isBlocked){
+    console.log ("User can proceed")
+}

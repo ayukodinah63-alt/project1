@@ -24,3 +24,12 @@ for(let i =2; i<=6; i++)
     {
     console.log(i);
 }
+
+
+let loanAmount = 1000;
+if (loanAmount >=50000) {
+    console.log ("High Loan amount");
+}
+else{
+    console.log("low loan amount");
+}
